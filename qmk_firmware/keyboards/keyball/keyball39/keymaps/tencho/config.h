@@ -39,6 +39,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define AUTO_MOUSE_DEFAULT_LAYER 3
 #define AUTO_MOUSE_TIME 800
 
+
+#undef DYNAMIC_KEYMAP_LAYER_COUNT
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
+
 #ifdef KEYBALL_CPI_DEFAULT
 #    define KEYBALL_CPI_DEFAULT 400
 # else
