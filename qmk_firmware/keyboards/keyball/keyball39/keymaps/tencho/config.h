@@ -33,7 +33,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#    define RGBLIGHT_EFFECT_TWINKLE
 #endif
 
-#define TAP_CODE_DELAY 5
+// #define TAP_CODE_DELAY 5
 
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
 #define AUTO_MOUSE_DEFAULT_LAYER 3
@@ -44,7 +44,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DYNAMIC_KEYMAP_LAYER_COUNT 5
 
 #ifdef KEYBALL_CPI_DEFAULT
+#    undef KEYBALL_CPI_DEFAULT
 #    define KEYBALL_CPI_DEFAULT 400
 # else
 #    define KEYBALL_CPI_DEFAULT 400
+#endif
+
+#define TAPPING_TERM 160
+
+// #define COMBO_COUNT 1
+// #define COMBO_TERM 200
+
+#ifdef KEYBALL_SCROLL_DIV_DEFAULT
+#    undef KEYBALL_SCROLL_DIV_DEFAULT
+#    define KEYBALL_SCROLL_DIV_DEFAULT 5
+# else
+#    define KEYBALL_SCROLL_DIV_DEFAULT 5
 #endif
