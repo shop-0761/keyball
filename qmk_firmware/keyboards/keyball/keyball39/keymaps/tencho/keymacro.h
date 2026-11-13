@@ -15,6 +15,9 @@
 # define CTL_Z CTL_T(KC_Z)
 # define CTL_SLSH CTL_T(KC_SLSH)
 
+# define GUI_S GUI_T(KC_S)
+# define GUI_L GUI_T(KC_L)
+
 # define UNDO C(KC_Z)
 # define REDO RCS(KC_Z)
 

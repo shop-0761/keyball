@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // keymap for default (VIA)
   [0] = LAYOUT_universal(
     KC_Q     , KC_W     , L2_E     , KC_R     , KC_T      ,                            KC_Y     , KC_U     , KC_I    , KC_O     , KC_P     ,
-    SFT_A    , KC_S     , L1_D     , KC_F     , KC_G      ,                            KC_H     , KC_J     , KC_K    , KC_L     , SFT_SCLN ,
+    SFT_A    , GUI_S    , L1_D     , KC_F     , KC_G      ,                            KC_H     , KC_J     , KC_K    , GUI_L    , SFT_SCLN ,
     CTL_Z    , L4_X     , KC_C     , KC_V     , KC_B      ,                            KC_N     , KC_M     , KC_COMM , KC_DOT   , CTL_SLSH ,
     L5_ESC   , _______  , _______  , _______  , ALT_TAB   , L1_SPC  ,       L2_WIN   , ALT_ENT  , KC_BSPC  , UNDO     , HIST    , LANG
   ),
