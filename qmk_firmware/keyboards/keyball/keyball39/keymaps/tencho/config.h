@@ -21,16 +21,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 #ifdef RGBLIGHT_ENABLE
-//#    define RGBLIGHT_EFFECT_BREATHING
-//#    define RGBLIGHT_EFFECT_RAINBOW_MOOD
-//#    define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-//#    define RGBLIGHT_EFFECT_SNAKE
-//#    define RGBLIGHT_EFFECT_KNIGHT
-//#    define RGBLIGHT_EFFECT_CHRISTMAS
-//#    define RGBLIGHT_EFFECT_STATIC_GRADIENT
-//#    define RGBLIGHT_EFFECT_RGB_TEST
-//#    define RGBLIGHT_EFFECT_ALTERNATING
-//#    define RGBLIGHT_EFFECT_TWINKLE
+// #    define RGBLIGHT_EFFECT_BREATHING
+// #    define RGBLIGHT_EFFECT_RAINBOW_MOOD
+// #    define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+// #    define RGBLIGHT_EFFECT_SNAKE
+// #    define RGBLIGHT_EFFECT_KNIGHT
+// #    define RGBLIGHT_EFFECT_CHRISTMAS
+// #    define RGBLIGHT_EFFECT_STATIC_GRADIENT
+// #    define RGBLIGHT_EFFECT_RGB_TEST
+// #    define RGBLIGHT_EFFECT_ALTERNATING
+// #    define RGBLIGHT_EFFECT_TWINKLE
 #endif
 
 // #define TAP_CODE_DELAY 5
@@ -39,18 +39,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define AUTO_MOUSE_DEFAULT_LAYER 3
 #define AUTO_MOUSE_TIME 800
 
-
 #undef DYNAMIC_KEYMAP_LAYER_COUNT
-#define DYNAMIC_KEYMAP_LAYER_COUNT 5
+#define DYNAMIC_KEYMAP_LAYER_COUNT 6
 
 #ifdef KEYBALL_CPI_DEFAULT
 #    undef KEYBALL_CPI_DEFAULT
-#    define KEYBALL_CPI_DEFAULT 400
-# else
-#    define KEYBALL_CPI_DEFAULT 400
+#    define KEYBALL_CPI_DEFAULT 300
+#else
+#    define KEYBALL_CPI_DEFAULT 300
 #endif
 
-#define TAPPING_TERM 160
+#define TAPPING_TERM 180
 
 // #define COMBO_COUNT 1
 // #define COMBO_TERM 200
@@ -58,6 +57,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifdef KEYBALL_SCROLL_DIV_DEFAULT
 #    undef KEYBALL_SCROLL_DIV_DEFAULT
 #    define KEYBALL_SCROLL_DIV_DEFAULT 5
-# else
+#else
 #    define KEYBALL_SCROLL_DIV_DEFAULT 5
 #endif
